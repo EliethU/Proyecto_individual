@@ -1,7 +1,7 @@
 {
-  "name": "talabarteria",
+  "name": "apptareas",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.28",
+    "@react-native-firebase/app": "^21.0.0",
+    "@react-native-firebase/firestore": "^21.0.0",
+    "@react-native-firebase/storage": "^21.0.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "expo": "^51.0.32",
+    "expo-image-picker": "~15.0.7",
     "expo-status-bar": "~1.12.1",
+    "firebase": "^10.13.2",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-image-picker": "^7.1.2",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-uuid": "^2.0.2",
+    "react-native-vector-icons": "^10.1.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
