@@ -154,7 +154,7 @@ export default function ProductManagement() {
                         <View style={styles.productRow}>
                             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                                 <Image
-                                    source={require('../../assets/taladro.jpg')}
+                                    source={require('../../imagenes/albarda.jpg')}
                                     style={styles.productImage}
                                 />
                                 <View style={styles.productInfo}>
